@@ -2,13 +2,13 @@
   {
     "name": "testvitehtml",
     "path": "/Users/mgams/Code/testvitehtml",
-    "command": "npm run dev",
+    "command": "pnpm run dev",
     "port": 5173
   },
   {
     "name": "Web",
     "path": "/Users/mgams/Code/FlowPage/Web",
-    "command": "npm run dev",
+    "command": "pnpm run dev",
     "port": 5173
   },
   {
@@ -20,13 +20,13 @@
   {
     "name": "remotion",
     "path": "/Users/mgams/Code/remotion",
-    "command": "npm run dev",
+    "command": "pnpm run dev",
     "port": 3003
   },
   {
     "name": "dev-project-launcher",
     "path": "/Users/mgams/Code/projectLauncher3/dev-project-launcher",
-    "command": "npm run dev",
+    "command": "pnpm run dev",
     "port": 3009
   }
 ]

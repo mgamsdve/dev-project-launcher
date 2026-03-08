@@ -14,12 +14,14 @@ A local developer dashboard to start, stop, and monitor your development service
 - Security: only commands defined in projects.json can ever be executed
 
 ---
+![Dev Snippet Manager](screenshot.png)
+
 
 ## Installation
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 Then open **http://localhost:3000**
@@ -35,14 +37,14 @@ Edit `projects.json` to list the services you want to manage:
   {
     "name": "API Server",
     "path": "/Users/you/dev/api",
-    "command": "npm run dev",
+    "command": "pnpm run dev",
     "port": 3001,
     "description": "Backend REST API"
   },
   {
     "name": "Frontend",
     "path": "/Users/you/dev/frontend",
-    "command": "npm run dev",
+    "command": "pnpm run dev",
     "port": 3002,
     "description": "React frontend"
   },

@@ -215,12 +215,12 @@ function detectCommand(dirPath: string, type: ProjectType): string {
       const pkg = JSON.parse(
         fs.readFileSync(path.join(dirPath, "package.json"), "utf-8")
       );
-      if (pkg.scripts?.dev) return "npm run dev";
-      if (pkg.scripts?.start) return "npm start";
+      if (pkg.scripts?.dev) return "pnpm run dev";
+      if (pkg.scripts?.start) return "pnpm start";
     } catch {
       // malformed package.json
     }
-    return "npm run dev";
+    return "pnpm run dev";
   }
   if (type === "rust") return "cargo run";
   if (type === "python") {
